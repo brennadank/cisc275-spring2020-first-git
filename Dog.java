@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Dog extends Animal implements Comparable<Dog>{
+public class Dog extends Animal{
 
 	public Dog(String name, int legs) {
 		super(name, legs);
@@ -8,9 +8,5 @@ public class Dog extends Animal implements Comparable<Dog>{
 	
 	public String toString() {
 		return "name: " + name + " legs: " + legs;
-	}
-	
-	public int compareTo() { //natural ordering
-		return 0;
 	}
 }
