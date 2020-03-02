@@ -11,5 +11,5 @@ public class Animal {
 	
 	public int getLegs(){
 		return this.legs;
-	}
+	} 
 }
