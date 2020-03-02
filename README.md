@@ -13,4 +13,5 @@ definition for the Comparator?
 	Yes I can spot the Comparator constructor call, it is located in 
 	the Collections.sort method call in line 16, Collections.sort(dogs, new Comparator<Animal>(). 
 	The class definition of the Comparator interface is located in the imported file 
-	'java.util.Comparator'.
+	'java.util.Comparator', and the compare method within the Compartor class is overridden 
+	following the constructor call.
